@@ -5,7 +5,7 @@ setwd()
 
 ####
 #(1)the effect of social influence on the rate of purchase 
-dt <- read.csv("/Users/JINZHIYI/Desktop/semester 2/agent-based model/Final Project/final-1 experiment-table.csv",
+dt <- read.csv("experiment-table.csv",
                skip = 6, stringsAsFactors = FALSE)
 
 colnames(dt) <- c("run", "marketing.effort", "social.influence.coef", "network.type", "product.quality", 
